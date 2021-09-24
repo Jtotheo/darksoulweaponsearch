@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: darksouls;
+    src: url(eb-garamond/EBGaramond-Medium.ttf);
+}
+.container{
+    background-image: url(images/weaponry.png);
+    min-height: 100vh;
+}
+
+.main {
+    
+    max-width: 600px;
+    height: 100%;
+    font-family: darksouls;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(230, 221, 228);
+    
+}
+
+h1 {
+    color: rgb(212, 46, 46);
+    padding: 3rem;
+}
+
+input {
+    margin: 10px;
+    width: 15rem;
+    height: 3rem;
+    border: 2px black solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(22, 21, 21, 0.9);
+    
+    
+}
+
+.search {
+    background-color: rgba(80, 80, 80, 0.8);
+    
+}
+
+.searchInfo {
+    font-size: 2rem;
+}
+
+.headerPic {
+    width: 5rem;
+    background-color: seashell;
+    border-radius: 50%;
+}
+
+.displayall {
+    padding: 20px 20px;
+    background-color: rgba(80, 80, 80, 0.93);
+    min-height: 100vh;
+}
+
+
+
+.noMatch {
+    margin-top: 20px;
+    color: red;
+    font-size: 2rem;
+    background-color: rgba(80, 80, 80, 0.8);
+}
+
+.skillIcon {
+    position: relative;
+    top: 10px;
+}
